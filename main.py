@@ -68,7 +68,7 @@ with containerAbout2:
                                     - 🐙 GitKraken
                                     - 🌻 Loom
                                     - 🐍 Python
-                                    - 🐉 SeleniumBases
+                                    - 🐉 SeleniumBase
                                     - 🔭 Streamlit
                                     ''')
 
@@ -80,40 +80,40 @@ with content1:
     container1 = content1.container()
     container1.markdown('## 👨‍💻 Work Experience')
     container1.markdown('''
-    #### :orange[<u>Kohort</u>]
-    - **Lead QA Engineer** · Apr 2023 - Present
-    ''', unsafe_allow_html=True)
+                        #### :orange[<u>Kohort</u>]
+                        - **Lead QA Engineer** · Apr 2023 - Present
+                        ''', unsafe_allow_html=True)
     container1.markdown('''
-    #### :orange[<u>The Delta</u>]
-    - **Lead QA Engineer** · Apr 2022 - Apr 2023  
-    - **Senior QA Engineer** · May 2021 - March 2022
-    ''', unsafe_allow_html=True)
+                        #### :orange[<u>The Delta</u>]
+                        - **Lead QA Engineer** · Apr 2022 - Apr 2023  
+                        - **Senior QA Engineer** · May 2021 - March 2022
+                        ''', unsafe_allow_html=True)
     container1.markdown('''
-    #### :orange[<u>Entersekt</u>]
-    - **Senior Quality Engineer** · Mar 2021 - Apr 2021  
-    - **Senior Quality Engineering Analyst** · Dec 2019 - Feb 2021  
-    - **Quality Engineering Analyst** · Jun 2017 - Nov 2019  
-    - **Quality Assurance Analyst** · Feb 2016 - May 2017  
-    ''', unsafe_allow_html=True)
+                        #### :orange[<u>Entersekt</u>]
+                        - **Senior Quality Engineer** · Mar 2021 - Apr 2021  
+                        - **Senior Quality Engineering Analyst** · Dec 2019 - Feb 2021  
+                        - **Quality Engineering Analyst** · Jun 2017 - Nov 2019  
+                        - **Quality Assurance Analyst** · Feb 2016 - May 2017  
+                        ''', unsafe_allow_html=True)
     container1.markdown('''
-    #### :orange[<u>Inspire Testing</u>]
-    - **Junior SQA Analyst** · Jun 2015 - Jan 2016
-    ''', unsafe_allow_html=True)
+                        #### :orange[<u>Inspire Testing</u>]
+                        - **Junior SQA Analyst** · Jun 2015 - Jan 2016
+                        ''', unsafe_allow_html=True)
 
 with content2:
     container2 = content2.container()
     container2.markdown('## 🧠 Technical Experience')
     container2.markdown('''
-    - API testing and automation
-    - Bare-metal server & applications testing
-    - Process roll-out and improvements
-    - Release planning and co-ordination
-    - TestOps
-    - Test plan creation, execution and reporting
-    - Testing environment setup & maintenance
-    - Manual & Automated test suite creation & maintenance
-    - Web application testing & automation
-    ''')
+                        - API testing and automation
+                        - Bare-metal server & applications testing
+                        - Process roll-out and improvements
+                        - Release planning and co-ordination
+                        - TestOps
+                        - Test plan creation, execution and reporting
+                        - Testing environment setup & maintenance
+                        - Manual & Automated test suite creation & maintenance
+                        - Web application testing & automation
+                        ''')
 
 with content3:
     container3 = content3.container()
@@ -130,8 +130,8 @@ with content3:
         """
         components.html(js)
     container3Content1.markdown('''
-    A Streamlit application where I test out various ideas and concepts.
-    - 🎛️ Config Selector
-    - 💫 Dashboard
-    - 🪄 Generate Test Data
-    ''')
+                                A Streamlit application where I test out various ideas and concepts.
+                                - 🎛️ Config Selector
+                                - 💫 Dashboard
+                                - 🪄 Generate Test Data
+                                ''')
