@@ -2,40 +2,40 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 st.set_page_config(
-    page_title="Christopher Zeuch CV",
+    page_title="Christopher Zeuch",
     page_icon="👋",
     layout="wide"
 )
 
 st.title('Hello 👋 I\'m :orange[Christopher], a :blue[QA Engineer] from South Africa 🇿🇦')
 
-col1, col2, col3, col4 = st.columns(4)
-with col1:
-    if col1.button("🗃️ GitHub", key='button1'):
-        js = """
-        <script>
-        window.open("https://github.com/Hiccup-za?tab=repositories", "_blank").focus();
-        </script>
-        """
-        components.html(js)
-with col2:
-    if col2.button("💼 LinkedIn", key='button2'):
-        js = """
-        <script>
-        window.open("https://www.linkedin.com/in/christopher-zeuch", "_blank").focus();
-        </script>
-        """
-        components.html(js)
-with col3:
-    if col3.button("🗞️ Substack", key='button3'):
-        js = """
-        <script>
-        window.open("https://qualityengineering.substack.com/", "_blank").focus();
-        </script>
-        """
-        components.html(js)
-with col4:
-    st.empty()
+# col1, col2, col3, col4 = st.columns(4)
+# with col1:
+#     if col1.button("🗃️ GitHub", key='button1'):
+#         js = """
+#         <script>
+#         window.open("https://github.com/Hiccup-za?tab=repositories", "_blank").focus();
+#         </script>
+#         """
+#         components.html(js)
+# with col2:
+#     if col2.button("💼 LinkedIn", key='button2'):
+#         js = """
+#         <script>
+#         window.open("https://www.linkedin.com/in/christopher-zeuch", "_blank").focus();
+#         </script>
+#         """
+#         components.html(js)
+# with col3:
+#     if col3.button("🗞️ Substack", key='button3'):
+#         js = """
+#         <script>
+#         window.open("https://qualityengineering.substack.com/", "_blank").focus();
+#         </script>
+#         """
+#         components.html(js)
+# with col4:
+#     st.empty()
 
 containerAbout = st.container()
 containerAbout1, containerAbout2 = containerAbout.columns(2)
@@ -45,13 +45,13 @@ with containerAbout1:
     containerAbout1Content.markdown('''                          
                                     ## About Me
 
-                                    I am a hardworking and highly autonomous individual with a very deep passion for Quality Assurance and Engineering.
-                                    I've worked for a variety of companies and startups; with products ranging from PoCs and MVPs to large production systems in fintech and financial forecasting.
+                                    I'm a hardworking and highly autonomous individual with a very deep passion for Quality Assurance and Engineering.
+                                    I've worked for various companies and startups; with products ranging from PoCs and MVPs to large production systems in fintech and financial forecasting.
 
                                     Having spent the last few years working exclusively with startups; my go-to "style" is lean and lightweight, enabling me to adjust test strategies as the business grows.
 
-                                    I am able to work solo or part of a team, both are enjoyable.
-                                    I've also had the privilage of leading a small QA team that worked on various start-ups, where I gained experience in leading and mentoring.
+                                    I can work solo or as part of a team, both are enjoyable.
+                                    I've also had the privilege of leading a small QA team that worked on various start-ups, where I gained experience in leading and mentoring.
 
                                     I love learning new things and keep my eyes open for new and exciting tech via X (formerly Twitter) and YouTube.
                                     I spend my spare time working on side projects and gaming.
